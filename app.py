@@ -17,12 +17,12 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 app.config['suppress_callback_exceptions'] = True
-app.title='Titanic!'
+app.title="Pat's trip on the Titanic!"
 
 
 ## Layout
 app.layout = html.Div([
-    html.H1('Surviving the Titanic'),
+    html.H1('Surviving the Titanic - Pat'),
     dcc.Tabs(id="tabs-template", value='tab-1-template', children=[
         dcc.Tab(label='Introduction', value='tab-1-template'),
         dcc.Tab(label='Model Evaluation', value='tab-2-template'),

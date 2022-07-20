@@ -42,9 +42,9 @@ tab_4_layout = html.Div([
     ],className='twelve columns'),
 
     html.Br(),
-    html.Br(),
-    html.Br(),
-    html.Br(),
+  #  html.Br(),
+  #  html.Br(),
+  #  html.Br(),
 
     html.Div([
         html.Div('Select:', className='one column'),
@@ -80,7 +80,7 @@ tab_4_layout = html.Div([
     # Output results
     html.Div([
         html.Div(id='user-inputs-box', style={'text-align':'center','fontSize':18}),
-        html.Div(id='final_prediction', style={'color':'purple','text-align':'center','fontSize':18})
+        html.Div(id='final_prediction', style={'color':'blue','text-align':'center','fontSize':24})
     ],className='twelve columns'),
 
 

@@ -2,7 +2,7 @@ import dash
 from dash import dcc, html
 import base64
 
-boat_photo=base64.b64encode(open('resources/Titanic.png', 'rb').read())
+boat_photo=base64.b64encode(open('resources/Titanic-2.jpg', 'rb').read())
 
 
 tab_1_layout = html.Div([

@@ -23,9 +23,9 @@ tab_3_layout = html.Div([
         ],className='three columns'),
         html.Div([
             html.Div(id='page-3-content', style={'fontSize':18}),
-            html.Br(), this was included to add spacing between the dropdown and result rows
+            html.Br(), # this was included to add spacing between the dropdown and result rows
             html.Div(id='survival-prob', style={'fontSize':18, 'color':'red'}),
-            html.Br(),v# and this
+            html.Br(), # and this
             html.Table(id='survival-characteristics')
         ],className='nine columns'),
     ],className='twelve columns'),

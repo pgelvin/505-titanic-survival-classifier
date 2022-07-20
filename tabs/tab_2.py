@@ -14,7 +14,6 @@ tab_2_layout = html.Div([
         html.Div([
             html.Br(),
             html.Br(),
-            # original radio callback button           
             dcc.RadioItems(
                 id='page-2-radios',
                 options=[{'label': i, 'value': i} for i in choices],

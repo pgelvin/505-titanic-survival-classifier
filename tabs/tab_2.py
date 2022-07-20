@@ -14,6 +14,16 @@ tab_2_layout = html.Div([
         html.Div([
             html.Br(),
             html.Br(),
+            # changing the radio callback to a button
+             html.Button(ROC-AUC='Submit', id='ROC-AUC', n_clicks=0,
+                                style={
+                                'background-color': 'purple',
+                                'color': 'white',
+                                'margin-left': '5px',
+                                'verticalAlign': 'center',
+                                'horizontalAlign': 'center'}
+                                ),       
+            # original radio callback button           
             dcc.RadioItems(
                 id='page-2-radios',
                 options=[{'label': i, 'value': i} for i in choices],
